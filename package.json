@@ -1,0 +1,24 @@
+{
+  "name": "retemption",
+  "version": "0.1.0",
+  "description": "",
+  "keywords": [],
+  "bugs": "https://github.com/yaroslav-korotaev/retemption/issues",
+  "license": "MIT",
+  "author": "Yaroslav Korotaev <yaroslav.korotaev@gmail.com>",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "repository": "yaroslav-korotaev/retemption",
+  "scripts": {},
+  "dependencies": {
+    "replaceholders": "^0.1.0",
+    "universe-types": "^0.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.3",
+    "typescript": "^4.7.4"
+  }
+}

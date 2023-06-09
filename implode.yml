@@ -1,0 +1,9 @@
+source: ../templates/lib
+data:
+  name: retemption
+  version: "0.1.0"
+  description: ""
+  keywords: []
+  author: Yaroslav Korotaev <yaroslav.korotaev@gmail.com>
+  bugs: https://github.com/yaroslav-korotaev/retemption/issues
+  repo: yaroslav-korotaev/retemption

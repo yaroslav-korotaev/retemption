@@ -84,7 +84,7 @@ const mappers: Mappers = {
         return `\`${replaced}\``;
       }
     } else {
-      return `'${replaced}'`;
+      return JSON.stringify(replaced);
     }
   },
   object(value, options, next) {
@@ -97,7 +97,7 @@ const mappers: Mappers = {
       const nextKey = (value: string) => {
         const code = next(value, options);
         
-        return (code[0] == '\'') ? code : `[${code}]`;
+        return (code[0] == '"') ? code : `[${code}]`;
       };
       
       if (keys.length == 1) {

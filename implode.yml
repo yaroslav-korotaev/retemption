@@ -1,7 +1,7 @@
 source: ../templates/lib
 data:
   name: retemption
-  version: "0.1.0"
+  version: "0.1.1"
   description: ""
   keywords: []
   author: Yaroslav Korotaev <yaroslav.korotaev@gmail.com>
